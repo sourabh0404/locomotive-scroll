@@ -1,0 +1,319 @@
+html,body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; 
+  scroll-behavior: smooth;
+  background-color: rgb(241, 223, 187);
+}
+
+/* navbar -------------------------------------------------------------------*/
+.navbar{
+  position: absolute;
+  top: 0;
+  width: 100%;
+    display: flex;
+    z-index: 2;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.logo{
+  z-index: 556;
+    width: 50%;
+}
+
+.left-logo img{
+  width: 20vw;
+  height: 40px;
+  padding: 15px 0 0 77px;
+}
+.nav-box {
+  position: relative;
+  z-index: 5;
+  width: 14vw;
+  height: 3vw;
+  border: 0.1vw solid #3a0dda;
+  border-radius: 16vw;
+  overflow: hidden;
+}
+.right-nav{
+width: 50%;
+text-align: right;
+}
+.right-logo{
+    position: relative;
+    z-index: 1;
+    cursor: pointer;
+    left: 0;
+    margin-top: 3vh;
+    height: 10vh;
+ 
+}
+
+
+
+
+
+/* first----------------------------------------------------------------------------------- */
+.first-hero {
+
+  z-index: 9999;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  color: #000000;
+}
+
+.divv1 {
+  
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.divv1 h1{
+  font-size: 3rem;
+}
+.divv1 h1 {
+  margin: 0 0 -0.8rem;
+}
+
+
+.divv1 p {
+  color: #807e7e;
+  margin-top: 0.1rem;
+}
+
+.divv2 {
+  width: 40%;
+}
+.divv2 {
+  width: 40%;
+  background-image: url('images/image-7.png');
+  background-size: cover;
+  background-size: 60%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.divv3 {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rotated-text {
+  color: rgb(108, 107, 107);
+  transform: rotate(90deg);
+  font-size: 4.2rem;
+margin-left: 17vh;  
+}
+
+
+ /* second section-------------------------------------------------------------------------------------- */
+ .hero-two{
+  height: 100vh;
+  background-image: url(images/image-6.png);
+  background-size: cover;
+  background-position: center;
+  background-size: 70%;
+  background-repeat: no-repeat;
+}
+/* third section-------------------------------------------------------------------------------------------- */
+.hero-three {
+  margin-top: 20vh;
+  height: 60vh;
+  display: flex;
+}
+
+.left, .right {
+  width: 50%;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.hero-three h1, p {
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+.hero-three h1{
+  font-size: 3rem;
+
+}
+.hero-three p{
+  margin-right: 20vh;
+
+}
+
+
+
+/* fourth section---------------------------------------------------------------------------------------------- */
+.hero-four {
+  height: 100vh;
+
+}
+.four-one {
+  color: #333;
+  font-size: 24px;
+ 
+  height: 45vh;
+}
+.four-one h1 {
+  font-size: 4.8rem;
+  font-weight: 200;
+  color: #333;
+  margin: 0;
+}
+.four-one h1:first-child {
+  margin-left: 10vh;
+}
+
+.four-one h1:last-child {
+  margin-left: 70vh;
+}
+
+
+
+.four-two {
+  height: 60vh;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.column-one, .column-two {
+  width: 50%;
+}
+
+.col-img{
+  height: 53vh;
+  width: 90vh;
+  margin-left: 12vh;
+  margin-top: 5vh;
+}
+
+
+.column-two img{
+  height: 45vh;
+  width: 90vh;
+  margin-left: 5vh;
+}
+.column-two p{
+  font-size: 0.6rem;
+  margin-top: 4vh;
+  margin-left: 3.5vh;
+  width: 80vh;
+}
+
+
+
+
+
+
+/* fifth section-------------------------------------------------------------------------------------------- */
+.hero-five {
+  margin-top: 16vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 20px;
+  color: rgb(0, 0, 0);
+}
+
+.heading-left {
+  font-size: 2.6rem;
+  margin: 0;
+  text-align: left;
+}
+
+.heading-right {
+  font-size: 2.6rem;
+  margin: 0;
+  text-align: right;
+  margin-left: auto;
+  
+}
+
+
+/* sixth section--------------------------------------------------------------------------------------- */
+
+.hero-six {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20vh;
+  
+}
+.hero-six h1{
+  font-size: 2rem;
+}
+
+.row-two {
+  margin-top: 10vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 25px;
+}
+.row-two p{
+  font-size: 0.8rem;
+  width: 45vh;
+}
+
+.image-six {
+  height: 40vh;
+  width: 45vh;
+}
+
+
+/* hero-seven------------------------------------------------------------------- */
+.hero-seven {
+  height: 100vh;
+  display: flex;
+  margin-top: 15vh;
+}
+
+.image-column {
+  width: 50%;
+}
+
+.image-column-1 {
+  display: flex;
+  flex-direction: column; /* set the flex direction to column */
+   /* distribute the images evenly within the column */
+  gap: 12px;
+
+
+}
+
+.image-column-1 img {
+  width: 80%;
+  height: 45vh;
+  margin-left: 10vh;
+}
+
+.image-column-2 img {
+  width: 90%;
+  height: 93.3vh;
+  margin-right: 10vh;
+}
+
+
+
+/* hero eight---------------------------------------------------------------------------------------- */
+
+
+.hero-eight{
+  height: 100vh;
+}
+.hero-nine{
+  height: 100vh;
+  background-color: #000000;
+}

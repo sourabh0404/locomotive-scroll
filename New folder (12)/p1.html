@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="product.css">
+    <link rel="stylesheet" href="menu.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/ScrollTrigger.min.js"></script> 
+</head>
+<body>
+  <nav class="navbar">
+    <div class="logo">
+               <div class="left-logo"> <img src="name.png" alt="logo"></div>
+       </div>
+       <div class="logo right-nav">
+    
+
+               <svg class="right-logo" onclick="toggleMenu()" width="54" height="106" viewBox="0 0 214 306" fill="none" xmlns="http://www.w3.org/2000/svg">
+                   <path d="M213.5 304V2L115.5 149.5L213.5 304Z" fill="#F7BE26"/>
+                   <path d="M0.5 304L188.5 2H0.5V304Z" fill="#F7BE26"/>
+                   <path d="M213.5 304V2L115.5 149.5L213.5 304Z" stroke="black"/>
+                   <path d="M213.5 304V2L115.5 149.5L213.5 304Z" stroke="white" stroke-opacity="0.2"/>
+                   <path d="M213.5 304V2L115.5 149.5L213.5 304Z" stroke="#1B4444" stroke-opacity="0.2"/>
+                   <path d="M0.5 304L188.5 2H0.5V304Z" stroke="black"/>
+                   <path d="M0.5 304L188.5 2H0.5V304Z" stroke="white" stroke-opacity="0.2"/>
+                   <path d="M0.5 304L188.5 2H0.5V304Z" stroke="#1B4444" stroke-opacity="0.2"/>
+               </svg>
+       
+           
+       </div>
+</nav>
+<div  class="menu-page">
+  <img class="close-menu" src="close-icon.svg" alt="Close Menu">
+  <div class="menu-wrapper">
+    <div class="menu-heads">
+      <ul class="menu-list">
+        <li class="all-menu all-menu-1"><a href="index.html">HOME</a></li>
+        <li class="all-menu all-menu-2"><a href="#">ABOUT</a></li>
+        <li class="all-menu all-menu-3"><a href="#">PRODUCTS</a></li>
+        <li class="all-menu all-menu-4"><a href="contact.html">CONTACT</a></li>
+      </ul>
+    </div>
+  </div>
+  
+</div>
+    <div data-scroll-container>
+      <section class="first-hero" data-scroll-section>
+        <div class="divv1">
+          <h1 data-scroll data-scroll-direction="horizontal" data-scroll-speed="-3" data-scroll-class="appear" data-scroll-repeat="true">TROIKA</h1>
+          <h1 data-scroll data-scroll-direction="horizontal" data-scroll-speed="-3" data-scroll-class="appear" data-scroll-repeat="true">CABINET</h1>
+          <p data-scroll data-scroll-direction="horizontal" data-scroll-speed="-3" data-scroll-class="appear" data-scroll-repeat="true">hshhhshsJNJDNFJNDNNhshshshh</p>
+        </div>
+        <div class="divv2"></div>
+        <div class="divv3">   <p data-scroll class="rotated-text">ATRAW</p></div>
+      </section>
+        
+        <section data-scroll-section class="hero-two">
+        </section>
+        <section data-scroll-section class="hero-three">
+          <div class="left">
+            <h1 data-scroll data-scroll-speed="2">Heading</h1>
+          </div>
+          <div class="right">
+            <p data-scroll data-scroll-speed="2"> stique eleifend, arcu sapien tempor ante, eget euismod sapien massa vel quam. Praesent quis fermentum elit. Nam dapibus hendrerit elit, in consequat lacus rhoncus vel. Vestibulum eget metus mollis, vehicula metus id, imperdiet elit.</p>
+          </div>
+        </section>
+    
+      
+        <section data-scroll-section class="hero-four">
+          <div class="four-one">
+            <h1>TRADITION</h1>
+            <h1>AND DESIGN</h1>
+          </div>
+          <div class="four-two">
+            <div class="column-one">
+              <img src="images/image-1.jpg" class="col-img" alt="your-image-description">
+            </div>
+            <div class="column-two">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus saepe ex sint consectetur unde nisi cupiditate ipsam eius mollitia! Corrupti!</p>
+              <img src="images/image-1.jpg" alt="">
+            </div>
+          </div>
+        </section>
+        <section data-scroll-section="1" class="hero-six">
+          <h1>WOOD MATERIAL</h1>
+          <div class="row-two">
+            <img src="images/TROIKA1.jpg" alt="Image" class="image-six">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis ut molestias, quidem quam praesentium explicabo.</p>
+            <img src="images/TROIKA2.jpg" alt="Image" class="image-six">
+            <img src="images/TROIKA3.jpg" alt="Image" class="image-six">
+          </div>
+        </section>
+        <section data-scroll-section="1" class="hero-five">
+          <h1 data-scroll="1" data-scroll-speed="-11" data-scroll-direction="horizontal"class="heading-left">GET THE DESIGN</h1>
+          <h1 data-scroll="1" data-scroll-speed="11" data-scroll-direction="horizontal" class="heading-right">OF YOUR CHOICE</h1>
+        </section>
+<section data-scroll-section="1" class="hero-seven">
+  <div class="image-column-1 image-column">
+    <img src="images/TROIKA4.jpg" alt="Image 1">
+    <img src="images/TROIKA6.jpg" alt="Image 2">
+  </div>
+  <div class="image-column-2 image-column">
+    <img src="images/TROIKA5.jpg" alt="Image 3">
+  </div>
+</section>
+<section data-scroll-section="1" class="hero-eight">
+
+</section>
+
+
+      </div>
+      
+      <script src="pre.js"></script>
+      </body>
+      </html>
+      
+
+
+
+
+<script src="pre.js"></script>
+<script src="menu.js"></script>
+</body>
+</html>

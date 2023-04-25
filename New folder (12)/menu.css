@@ -1,0 +1,77 @@
+/* for menu */
+.menu-page {
+  position: fixed;
+  top: -100%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  z-index: 9999999;
+  transition: top 0.5s ease-in-out;
+}
+
+.menu-page.show {
+  top: 0;
+}
+
+.close-menu {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  filter: invert(1);
+}
+
+/* menu list */
+
+.menu-wrapper {
+  display: flex;
+  align-items: center;
+  position: absolute; /* add this */
+  top: 50%; /* add this */
+  left: 0; /* add this */
+  right: 0; /* add this */
+  transform: translateY(-50%); /* add this */
+}
+.menu-heads {
+  display: inline-block;
+}
+
+.menu-list {
+  
+  
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  font-size: 100px;
+  width: 100%;
+  position: relative;
+}
+
+.menu-list li {
+  margin: 0 12px;
+}
+
+.menu-list li a {
+  
+  text-decoration: none;
+  color: rgb(63, 63, 63);
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 5px 20px;
+  transition: color 0.5s ease;
+}
+.menu-list li:hover a {
+  color: white;
+}
+
+.all-menu {
+  transition: transform 0.2s ease-out;
+}
